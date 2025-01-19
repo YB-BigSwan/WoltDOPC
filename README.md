@@ -18,7 +18,7 @@ Ensure you have the following installed on your machine:
    In your terminal, run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/wolt-take-home-task-dopc.git
+   git clone https://github.com/YB-BigSwan/WoltDOPC
    ```
 
 2. **Navigate to the project directory:**
@@ -37,4 +37,10 @@ Ensure you have the following installed on your machine:
 
    ```
    npm run dev
+   ```
+
+5. (optional) **Run tests**
+
+   ```
+   npx vitest
    ```
