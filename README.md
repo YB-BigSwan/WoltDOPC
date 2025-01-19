@@ -12,8 +12,8 @@ Follow the steps below to set up and run the project on your local machine.
 
 Ensure you have the following installed on your machine:
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (optional, but recommended for package management)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) 
 
 ### Steps to Set Up Locally
 
@@ -27,19 +27,18 @@ Ensure you have the following installed on your machine:
 
 2. **Navigate to the project directory:**
 
-```
-cd WoltDOPC
-```
+   ```
+   cd WoltDOPC
+   ```
 
 3. **Install Dependencies:**
 
-```
-npm install
-```
+   ```
+   npm install
+   ```
 
 4. **Run the project locally:**
 
-```
-npm run dev
-```
-# WoltDOPC
+   ```
+   npm run dev
+   ```
