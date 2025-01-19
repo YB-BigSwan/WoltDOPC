@@ -1,9 +1,5 @@
 # Wolt Take Home Task DOPC
 
-## Project Demo Link
-
-You can view the project demo here: [Project Demo](https://yb-bigswan.github.io/WoltDOPC/)
-
 ## Installation and Running Locally
 
 Follow the steps below to set up and run the project on your local machine.
