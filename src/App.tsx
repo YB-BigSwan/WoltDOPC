@@ -3,7 +3,7 @@ import { Toaster } from "./components/ui/toaster";
 
 function App() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center h-screen">
       <Form />
       <Toaster />
     </div>

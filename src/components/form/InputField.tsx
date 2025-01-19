@@ -17,8 +17,9 @@ const InputField = ({
 }: InputFieldProps) => {
   return (
     <div className="flex flex-col">
-      <label>{label}</label>
+      <label htmlFor={dataTestId}>{label}</label>
       <input
+        id={dataTestId}
         type="text"
         value={value}
         onChange={onChange}
