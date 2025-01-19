@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
-import { expect, vi } from "vitest";
+import { expect, vi, Mock } from "vitest";
 import Form from "../components/form/Form";
 import PriceBreakdown from "../components/form/PriceBreakdown";
 import { useFormLogic } from "../hooks/useFormLogic";
@@ -38,7 +38,7 @@ describe("Form Component Tests", () => {
     mockSubmitForm = vi.fn();
 
     // Mock init data
-    (useFormLogic as vi.Mock).mockReturnValue({
+    (useFormLogic as Mock).mockReturnValue({
       venueSlug: "",
       setVenueSlug: vi.fn(),
       cartValue: 0,
@@ -86,7 +86,7 @@ describe("Form Component Tests", () => {
   // Test 3: Price breakdown should be rendered when form is submitted
   it("should display the price breakdown when form is submitted", async () => {
     const mockCalculatePrice = vi.fn();
-    (useFormLogic as vi.Mock).mockReturnValue({
+    (useFormLogic as Mock).mockReturnValue({
       ...useFormLogic(),
       submitted: true,
       calculatePrice: mockCalculatePrice,
