@@ -9,7 +9,7 @@ Follow the steps below to set up and run the project on your local machine.
 Ensure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/) 
+- [npm](https://www.npmjs.com/)
 
 ### Steps to Set Up Locally
 
@@ -39,7 +39,7 @@ Ensure you have the following installed on your machine:
    npm run dev
    ```
 
-5. (optional) **Run tests**
+5. (optional) **Run tests:**
 
    ```
    npx vitest
